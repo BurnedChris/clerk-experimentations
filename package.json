@@ -6,9 +6,13 @@
       "web"
     ]
   },
+  "scripts": {
+    "genAuthHeaders": "tsx ./scripts/createGraphiQLHeaders.ts"
+  },
   "devDependencies": {
     "@redwoodjs/auth-clerk-setup": "4.2.2",
-    "@redwoodjs/core": "4.2.2"
+    "@redwoodjs/core": "4.2.2",
+    "tsx": "^3.12.3"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
